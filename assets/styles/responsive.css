@@ -1,0 +1,83 @@
+@media(max-width: 480px){
+  .container-topo-logo {
+    left: 0;
+  }
+  
+  .container-topo-links {
+    right: 0;
+    margin-right: 0;
+  }
+  
+  .links-navegacao {
+    font-size: 14px;
+  }
+  
+  .container-banner h1 {
+    font-size: 50px;
+  }
+  
+  .secao-contatos-texto, .secao-contatos-info {
+    font-size: 20px;
+  }
+  
+  .secao-contatos-texto {
+    top: 5%;
+  }
+  
+  .container-parallax-3 iframe {
+    top: 15%;
+  }
+  
+  .secao-contatos-info {
+    bottom: 0;
+  }
+  
+  .lista {
+    bottom: 10%;
+  }
+  
+  .lista li div {
+    width: 50%;
+  }
+  
+  .link-banner {
+    width: 30px;
+    height: 30px;
+    bottom: 130px;
+    right: 20px;
+  }
+}
+
+@media(max-width: 768px){
+  .container-topo-links{
+    right: 0;
+    margin-right: 0;
+  }
+  
+  .container-parallax-3 iframe {
+    width: 100%;
+  }
+  
+  .lista li h3 {
+    left: 5%;
+  }
+  
+  .lista li div {
+    max-width: 350px;
+  }
+  
+  .lista li p {
+    right: 4%;
+  }
+  
+  .link-banner {
+    bottom: 90px;
+    right: 10px;
+  }
+}
+
+@media(max-width: 1024px){
+  .container-parallax-3 iframe {
+    width: 100%;
+  }
+}
